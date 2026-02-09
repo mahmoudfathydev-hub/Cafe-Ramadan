@@ -4,6 +4,7 @@ import gsap from "gsap";
 import Hero from "./components/hero";
 import Menu from "./components/menu";
 import About from "./components/About";
+import Art from "./components/Art";
 
 gsap.registerPlugin(ScrollTrigger, SplitText);
 
@@ -15,6 +16,7 @@ export default function Home() {
       <Hero />
       <Menu />
       <About />
+      <Art />
     </main>
   );
 }
