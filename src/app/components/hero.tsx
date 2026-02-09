@@ -15,7 +15,7 @@ const Hero = () => {
 
   useGSAP(() => {
     const heroSplit = new SplitText(".title", {
-      type: "chars, words",
+      type: "chars,words" as any,
     });
 
     const paragraphSplit = new SplitText(".subtitle", {
