@@ -70,7 +70,6 @@ const Hero = () => {
       videoRef.current.pause();
       tl.to(videoRef.current, {
         currentTime: videoRef.current.duration || 1,
-        scale: 0.8,
         ease: "none",
         onUpdate: function () {
           if (videoRef.current) {
