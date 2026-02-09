@@ -11,7 +11,6 @@ export default function Home() {
   return (
     <main>
       <Hero />
-      <div className="h-dvh bg-black"></div>
     </main>
   );
 }
