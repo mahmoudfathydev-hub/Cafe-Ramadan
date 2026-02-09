@@ -21,18 +21,18 @@ const About = () => {
                 opacity: 0, duration: 1, yPercent: 100, ease: 'expo.out', stagger: 0.02
             })
             .from('.top-grid div, .bottom-grid div', {
-                opacity: 0, duration: 1, ease: 'power1.inOut', stagger: 0.04,
+                opacity: 0, duration: 1, ease: 'power1.inOut', stagger: 0.05,
             }, '-=0.5')
     })
 
     return (
-        <div id="about" className='max-w-340 mx-auto'>
+        <div id="about" className='max-w-340 mx-auto mt-10'>
             <div className="mb-16 md:px-0 px-5">
                 <div className="content">
                     <div className="md:col-span-8">
                         <p className="badge">Best Cocktails</p>
                         <h2>
-                            Where every detail matters <span className="text-white">-</span>
+                            Where every detail matters <span className="text-white">- </span>
                             from muddle to garnish
                         </h2>
                     </div>
@@ -82,7 +82,6 @@ const About = () => {
                     <img src="/images/abt4.png" alt="grid-img-4" />
                 </div>
             </div>
-
         </div>
     )
 }
