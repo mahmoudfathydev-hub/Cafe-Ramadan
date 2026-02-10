@@ -26,7 +26,7 @@ const About = () => {
     })
 
     return (
-        <div id="about" className='max-w-340 mx-auto mt-10'>
+        <div id="about" className='max-w-340 mx-auto mt-18'>
             <div className="mb-16 md:px-0 px-5">
                 <div className="content">
                     <div className="md:col-span-8">
